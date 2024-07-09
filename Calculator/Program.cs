@@ -13,6 +13,9 @@ namespace Calculator
             MethodsClass mc=new MethodsClass();
             int add = mc.add(10, 20);
             Console.WriteLine("Addition is "+add);
+            ViewerClass viewerClass = new ViewerClass();
+            viewerClass.printTable(10);
+            Console.ReadLine();
         }
     }
 }

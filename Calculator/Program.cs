@@ -15,6 +15,7 @@ namespace Calculator
             Console.WriteLine("Addition is "+add);
             ViewerClass viewerClass = new ViewerClass();
             viewerClass.printTable(10);
+            Console.WriteLine("Hello");
             Console.ReadLine();
         }
     }

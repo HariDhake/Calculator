@@ -16,6 +16,7 @@ namespace Calculator
             ViewerClass viewerClass = new ViewerClass();
             viewerClass.printTable(10);
             timepass tp = new timepass();
+            Console.WriteLine("Hello");
             Console.ReadLine();
 
         }

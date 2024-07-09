@@ -11,6 +11,7 @@ namespace Calculator
         static void Main(string[] args)
         {
             MethodsClass mc=new MethodsClass();
+            PirnterClass pirnterClass=new PirnterClass();
             int add = mc.add(10, 20);
             Console.WriteLine("Addition is "+add);
         }

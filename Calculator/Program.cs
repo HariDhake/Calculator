@@ -10,7 +10,9 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
-            
+            MethodsClass mc=new MethodsClass();
+            int add = mc.add(10, 20);
+            Console.WriteLine("Addition is "+add);
         }
     }
 }
